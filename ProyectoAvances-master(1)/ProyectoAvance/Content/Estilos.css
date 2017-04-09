@@ -1,0 +1,312 @@
+﻿body {
+    background-color:#b7bdff;
+}
+
+
+header div .iconosrs {
+    margin-left: 10px;
+    float: right;
+    margin-top:8%;
+    
+}
+
+header div div .iconosrs {
+    margin-left: 8px;
+    float: right;
+
+    margin-top:0;
+    
+}
+
+header div a{
+    float:right;
+    
+    
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #547ac7;
+    margin-top:30px;
+}
+
+ul.desplegable {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color: #547ac7;
+}
+
+ul.topnav li.left {
+    float: left;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+ul.topnav li.vert {
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+    ul.topnav li a:hover {
+        background-color: #091597;
+    }
+
+ul.desplegable li a:hover {
+    background-color: #091597;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.topnav > li {
+    float: left;
+}
+
+.topnav li a:hover {
+    background-color: #091597;
+}
+
+.topnav li ul {
+    display: none;
+    position: absolute;
+    min-width: 95px;
+}
+
+.topnav li:hover > ul {
+    display: block;
+}
+
+.topnav li ul li {
+    position: relative;
+}
+
+    .topnav li ul li ul {
+        right: -140px;
+        top: 0px;
+    }
+
+#barra {
+    color:#333;
+}
+
+.inputtext{
+    padding:.3em;
+    display:block;
+    left:25%;
+    margin-top:15px;
+    margin-left:25%;
+}
+
+
+
+.anadir input[type=text]{
+}
+.tablecont{
+    left:5%;
+    border:1px solid #0015ff;
+    margin-top:4%;
+    float:left;
+    display:inline-block;
+    border-radius:10px;
+    padding:10px;
+    display:none;
+}
+.tablecont tr td input[type=submit]{
+    color:#003cff;
+    padding:10px;
+    cursor:pointer;
+    border:none;
+    background-color:#b7bdff;
+
+}
+.tablecont tr td{
+    color:#003cff;
+    cursor:pointer;
+} 
+
+.anadir table{
+    color:#0015ff;
+}
+
+tr{
+    
+
+}
+input[type=radio]{
+    visibility:hidden;
+}
+tr td label{
+    color:#003cff;
+    padding:10%;
+
+}
+
+.anadir{
+    border:1px solid #0015ff;
+    position:absolute;
+    margin-left:5%;
+    margin-top:3%;
+    border-radius:10px;
+    display:none;
+
+}
+.anadir .contenido{
+    margin-top:2%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:25%;
+}
+.anadir .contenido input[type=submit]{
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+    border-radius:10px;
+    background-color:#4585c3;
+    margin-left:25px;
+    margin-top:25px;
+    float:left;
+}
+.anadir .contenido table {
+    margin-left:25%;
+}
+.anadir .contenido #tableinfo {
+    margin-left:5%;
+}
+
+.escondido{
+    display:none;
+}
+
+
+.botlabel{
+    color:#0015ff;
+    padding:20px;
+    margin-top:30px;
+    margin-left:30px;
+    border-radius:5px;
+    background-color:steelblue;
+    cursor:pointer;
+    display:inline-flex;
+    vertical-align:central;
+    float:right;
+    position:relative;
+    margin-right:5%;
+    top:-0%;
+}
+.modal{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    display:none;
+
+}
+.modal label{
+    color:#0015ff;
+
+}
+.modal .contenido{
+    background-color:#b7bdff;
+    left:32%;
+    top:30%;
+    position:fixed;
+    border-radius:10px;
+    padding:5%;
+    border:5px solid #4585c3;
+}
+.modal .contenido input[type=submit]{
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+    border-radius:10px;
+    background-color:#4585c3;
+    margin-left:30%;
+    margin-top:25px;
+    float:left;
+}
+.botlabelcc{
+    
+    padding:20px;
+    margin-top:30px;
+    margin-left:25%;
+    border-radius:5px;
+    color:#fff;
+    background-color:steelblue;
+    cursor:pointer;
+    display:inline-flex;
+    vertical-align:central;
+    position:relative;
+}
+
+
+.marizq{
+    margin-left:25%;
+}
+
+.diviniciosesion{
+    margin-top:5%;
+    margin-left:30%;
+    position:absolute;
+    border:1px solid #0015ff;
+    padding:50px;
+    
+
+}
+.diviniciosesion table{
+    padding:10px;
+
+}
+.diviniciosesion table tr td{
+    padding:10px;
+    color:#4585c3;
+}
+
+.diviniciosesion input[type=submit]{
+    margin-top:20px;
+    margin-left:40%;
+    padding:10px;
+    margin-bottom:3%;
+    border-radius:10px;
+    background-color:#4585c3;
+}
+#letraG{
+        font-size: 50px;        
+        margin-left:20px;             
+        }
+
+#letraP{
+        text-align: justify;
+        font-size: 20px;
+        margin-left:20px;
+        margin-right: 300px;                     
+       }
+#letraM{
+        font-size: 30px;
+        margin-left:550px;
+        align-items: center;             
+       }
+
+#letraMC{
+        font-size: 30px;
+        margin-left:20px;        
+             
+       }
